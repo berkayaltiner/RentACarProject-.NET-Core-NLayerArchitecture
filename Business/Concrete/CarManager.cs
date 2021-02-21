@@ -31,7 +31,7 @@ namespace Business.Concrete
             return _carDal.GetAll();
         }
 
-        public List<Car> GeyById(int carId)
+        public List<Car> GetById(int carId)
         {
             return _carDal.GetById(carId);
         }
